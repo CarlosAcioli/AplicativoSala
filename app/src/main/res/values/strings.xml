@@ -1,4 +1,32 @@
 <resources>
     <string name="app_name">Aplicativo Sala</string>
-    <string name="title_1">Test Title</string>
+
+    <!-- Titles name examples -->
+    <string name="title_1">Here title 1</string>
+    <string name="title_2">Here title 2</string>
+    <string name="title_3">Here title 3</string>
+    <string name="title_4">Here title 4</string>
+    <string name="title_5">Here title 5</string>
+    <string name="title_6">Here title 6</string>
+    <string name="title_7">Here title 7</string>
+    <string name="title_8">Here title 8</string>
+    <string name="title_9">Here title 9</string>
+    <string name="title_10">Here title 10</string>
+
+    <!-- Themes name examples -->
+    <string name="theme_1">Acessibilidade</string>
+    <string name="theme_2">Cultura</string>
+    <string name="theme_3">Economia</string>
+    <string name="theme_4">Educacao</string>
+    <string name="theme_5">Homofobia</string>
+    <string name="theme_6">Meio Ambiente</string>
+    <string name="theme_7">Racismo</string>
+    <string name="theme_8">Saúde</string>
+    <string name="theme_9">Tecnologia</string>
+    <string name="theme_10">Empoderamento Feminino</string>
+
+    <!-- Students name -->
+    <string name="students_1">Carlos Acioli, Bruna Surlo\nEmanuelle Gomes</string>
+    <string name="students_2">Fabrício Macedo, Gabriela Schmidt\nHevily Fujimoto</string>
+
 </resources>

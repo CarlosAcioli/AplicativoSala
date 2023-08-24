@@ -6,12 +6,5 @@ import com.example.aplicativosala.model.Informations
 
 class Datasource {
 
-    fun mydatasource(): List<Informations> {
-
-        return listOf<Informations> (
-            Informations(R.string.title_1, Uri.parse(""))
-        )
-
-    }
 
 }
