@@ -1,6 +1,7 @@
 package com.example.aplicativosala.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,6 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.aplicativosala.R
+import com.example.aplicativosala.VideoActivity
 import com.example.aplicativosala.model.Informations
 
 class VideosAdapter (private val context: Context,
@@ -35,6 +37,14 @@ class VideosAdapter (private val context: Context,
         holder.titleTextView.text = context.resources.getString(item.titleName)
         holder.themeTextView.text = context.resources.getString(item.themeName)
         holder.studentsTextView.text = context.resources.getString(item.studentsName)
+
+        holder.itemView.setOnClickListener {
+            dataset[position]
+            val context = holder.itemView.context
+            val intent = Intent(context, VideoActivity::class.java)
+            intent.putExtra("UriParse", dataset[position].uriVideoParse.toString())
+            context.startActivity(intent)
+        }
 
     }
 
