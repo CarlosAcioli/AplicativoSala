@@ -1,8 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+        <!-- Light Theme -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue_light">#C2DEDC</color>
     <color name="grey_not_selected">#90918E</color>
     <color name="green_selected">#89FF00</color>
+
+    <!-- Primary  -->
+    <color name="primary">#a73160</color>
+    <color name="on_primary">#ffffff</color>
+    <color name="primary_container">#ffd9e2</color>
+    <color name="on_primary_container">#3f001c</color>
+
+    <!-- Secondary -->
+    <color name="secondary">#ab3514</color>
+    <color name="on_secondary">#ffffff</color>
+    <color name="secondary_container">#ffdbd1</color>
+    <color name="on_secondary_container">#3c0800</color>
+
+    <!-- Terciary -->
+    <color name="terciary">#775a00</color>
+    <color name="on_terciary">#ffffff</color>
+    <color name="terciary_container">#ffdf99</color>
+    <color name="on_terciary_container">#251a00</color>
+
+    <!-- Background -->
+    <color name="background">#fafcff</color>
+    <color name="on_background">#001f2a</color>
+    <color name="surface">#fffbfe</color>
+    <color name="on_surface">#001f2a</color>
+    <color name="outline">#837376</color>
+    <color name="surface_variant">#fffbfe</color>
+    <color name="on_surface_variant">#514346</color>
+
+        <!-- Dark Theme -->
+
+    <!-- Primary  -->
+    <color name="primary_dark">#ffb1c7</color>
+    <color name="on_primary_dark">#650031</color>
+    <color name="primary_container_dark">#871648</color>
+    <color name="on_primary_container_dark">#ffd9e2</color>
+
+    <!-- Secondary -->
+    <color name="secondary_dark">#ffb5a1</color>
+    <color name="on_secondary_dark">#611300</color>
+    <color name="secondary_container_dark">#881f00</color>
+    <color name="on_secondary_container_dark">#ffdbd1</color>
+
+    <!-- Terciary -->
+    <color name="terciary_dark">#f7be01</color>
+    <color name="on_terciary_dark">#3f2e00</color>
+    <color name="terciary_container_dark">#5a4300</color>
+    <color name="on_terciary_container_dark">#ffdf99</color>
+
+    <!-- Background -->
+    <color name="background_dark">#001f2a</color>
+    <color name="on_background_dark">#bfe9ff</color>
+    <color name="surface_dark">#001f2a</color>
+    <color name="on_surface_dark">#bfe9ff</color>
+    <color name="outline_dark">#9e8c90</color>
+    <color name="surface_variant_dark">#514346</color>
+    <color name="on_surface_variant_dark">#d6c2c5</color>
+
+    <color name="grey_background">#1c1b1f</color>
+
 </resources>
+

@@ -32,4 +32,14 @@
     <!-- Description -->
     <string name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Vitae tempus quam pellentesque nec. Neque vitae tempus quam pellentesque nec nam aliquam sem et.</string>
 
+    <!-- titles itro -->
+    <string name="intro_title_1">Bem-vindo! 👋</string>
+    <string name="intro_title_2">O que é esse app? 💭</string>
+    <string name="intro_title_3">Aproveite os vídeos! 📱</string>
+
+    <!-- descriptions -->
+    <string name="dp_1">Olá, seja bem-vindo ao nosso aplicativo. Nós somos os alunos do 3° ano B do Ensino Médio do Colégio da Polícia Militar Anísio Teixeira, e criamos este aplicativo como parte de um trabalho, para desenvolvermos nosso senso crítico a alguns temas.</string>
+    <string name="dp_2">O objetivo deste aplicativo é apresentar vídeos com temáticas diferentes, que abordam críticas à assuntos relevantes para a nossa sociedade. Os vídeos também trazem uma crítica sobre o tema, mostrando diferentes pontos de vista, questionando o senso comum, e expandindo a visão referente aos temas abordados.</string>
+    <string name="dp_3">Esperamos que você aproveite o nosso aplicativo e assista aos vídeos com um olhar crítico e curioso. Queremos compartilhar com você as nossas reflexões e aprendizados sobre os temas propostos. Agradecemos a sua atenção e participação. Valeu!</string>
+
 </resources>

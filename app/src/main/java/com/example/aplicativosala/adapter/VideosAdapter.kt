@@ -42,7 +42,6 @@ class VideosAdapter(
         holder.studentsTextView.text = context.resources.getString(item.studentsName)
 
         holder.itemView.setOnClickListener {
-            dataset[position]
             val context = holder.itemView.context
             val intent = Intent(context, VideoActivity::class.java)
             intent.putExtra("UriParse", item.uriVideoParse.toString())
