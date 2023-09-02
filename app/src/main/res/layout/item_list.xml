@@ -46,14 +46,15 @@
 
         <TextView
             android:id="@+id/students"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:text="Alunos: Fabrício, Gabriela Schmidt \nHevily Fujimoto"
+            android:text="@string/students_1"
             android:textSize="13sp"
             android:fontFamily="@font/noto_sans"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@id/image_profile" />
+            app:layout_constraintStart_toEndOf="@id/image_profile"
+            app:layout_constraintEnd_toEndOf="parent"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

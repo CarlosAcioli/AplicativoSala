@@ -26,7 +26,10 @@
     <string name="theme_10">Empoderamento Feminino</string>
 
     <!-- Students name -->
-    <string name="students_1">Carlos Acioli, Bruna Surlo\nEmanuelle Gomes</string>
-    <string name="students_2">Fabrício Macedo, Gabriela Schmidt\nHevily Fujimoto</string>
+    <string name="students_1">Carlos Acioli, Bruna Surlo e Emanuelle Gomes</string>
+    <string name="students_2">Fabrício Macedo, Gabriela Schmidt e Hevily Fujimoto</string>
+
+    <!-- Description -->
+    <string name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Vitae tempus quam pellentesque nec. Neque vitae tempus quam pellentesque nec nam aliquam sem et.</string>
 
 </resources>

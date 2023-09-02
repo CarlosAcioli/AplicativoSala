@@ -23,7 +23,6 @@ class VideoActivity : AppCompatActivity() {
         binding.themeText.text = themeName
 
 
-
         val mediaController = MediaController(this)
         mediaController.setAnchorView(binding.videoView)
 

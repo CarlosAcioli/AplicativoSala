@@ -1,17 +1,12 @@
 package com.example.aplicativosala
 
-import android.media.MediaController2
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.MediaController
-import android.widget.Toast
-import android.widget.VideoView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.aplicativosala.adapter.VideosAdapter
 import com.example.aplicativosala.databinding.ActivityMainBinding
-import com.example.aplicativosala.dataset.Datasource
 import com.example.aplicativosala.model.Informations
 
 class MainActivity : AppCompatActivity() {
@@ -37,7 +32,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    fun loadMyDataset(): List<Informations> {
+    private fun loadMyDataset(): List<Informations> {
 
         return listOf<Informations>(
 
@@ -45,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                     "android.resource://$packageName/${R.raw.funny_video}")),
 
             Informations(R.drawable.im_cultura, R.string.title_2, R.string.theme_2, R.string.students_2, Uri.parse(
-                "android.resource://$packageName/${R.raw.funny_video}")),
+                "android.resource://$packageName/${R.raw.volcano_video}")),
 
             Informations(R.drawable.im_economia, R.string.title_3, R.string.theme_3, R.string.students_1, Uri.parse(
                 "android.resource://$packageName/${R.raw.funny_video}")),

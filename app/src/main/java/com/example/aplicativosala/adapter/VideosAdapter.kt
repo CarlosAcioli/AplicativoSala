@@ -12,8 +12,10 @@ import com.example.aplicativosala.R
 import com.example.aplicativosala.VideoActivity
 import com.example.aplicativosala.model.Informations
 
-class VideosAdapter (private val context: Context,
-                     private val dataset: List<Informations>) : RecyclerView.Adapter<VideosAdapter.VideosHolderAdapter>() {
+class VideosAdapter(
+    private val context: Context,
+    private val dataset: List<Informations>
+) : RecyclerView.Adapter<VideosAdapter.VideosHolderAdapter>() {
 
     class VideosHolderAdapter(private val view: View) : RecyclerView.ViewHolder(view) {
         val profileImageView: ImageView = view.findViewById(R.id.image_profile)
@@ -25,7 +27,8 @@ class VideosAdapter (private val context: Context,
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VideosHolderAdapter {
 
-        val adapterLayout = LayoutInflater.from(parent.context).inflate(R.layout.item_list, parent, false)
+        val adapterLayout =
+            LayoutInflater.from(parent.context).inflate(R.layout.item_list, parent, false)
         return VideosHolderAdapter(adapterLayout)
     }
 
@@ -42,7 +45,8 @@ class VideosAdapter (private val context: Context,
             dataset[position]
             val context = holder.itemView.context
             val intent = Intent(context, VideoActivity::class.java)
-            intent.putExtra("UriParse", dataset[position].uriVideoParse.toString())
+            intent.putExtra("UriParse", item.uriVideoParse.toString())
+            intent.putExtra("themeName", holder.themeTextView.text.toString())
             context.startActivity(intent)
         }
 

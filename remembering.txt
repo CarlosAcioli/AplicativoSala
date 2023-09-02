@@ -1,7 +1,0 @@
-/*
-        val mediaController = MediaController(this)
-        mediaController.setAnchorView(binding.VideoTest)
-
-        val offlineUri = Uri.parse("android.resource://$packageName/${R.raw.funny_video}")
-        binding.VideoTest.setMediaController(mediaController)
-        binding.VideoTest.setVideoURI(offlineUri)
