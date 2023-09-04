@@ -19,8 +19,7 @@ https://github.com/CarlosAcioli/AplicativoSala/assets/131110961/f5589ffd-18ef-4e
 |--------------------------------|
 | RecyclerView                   |                      
 | Shared Preferences             |  
-| View Pager2 with TabLayout sync|                      
-|                                |                       
+| View Pager2 with TabLayout sync|                                           
 
 | Other features                           | 
 |------------------------------------------|
