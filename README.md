@@ -15,15 +15,20 @@ https://github.com/CarlosAcioli/AplicativoSala/assets/131110961/f5589ffd-18ef-4e
 
 
 
+| Main features                  | 
+|--------------------------------|
+| RecyclerView                   |                      
+| Shared Preferences             |  
+| View Pager2 with TabLayout sync|                      
+|                                |                       
 
-- Recycler View
-- View Pager2 with TabLayout sync
-- SharedPreferences
-- Material Design Tips
-- MVVM Architecture Pattern
-- Light and Dark mode colors compatibility
-- Adaptive Screen Sizes
-- Initial and receptive user screen
+| Other features                           | 
+|------------------------------------------|
+| Material Design Tips                     | 
+| Light and dark theme colors compatibility|
+| Adaptive Screen Sizes                    | 
+| Onboarding Screen UX                     | 
+
 
 ## Images 
 ![image](https://github.com/CarlosAcioli/AplicativoSala/assets/131110961/f81eb6a8-5ec6-4f6c-9b9b-e77cbaf27cac)
