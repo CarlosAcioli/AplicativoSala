@@ -3,6 +3,8 @@
     <style name="Base.Theme.AplicativoSala" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
 
+        <item name="android:statusBarColor">@color/on_secondary_dark</item>
+
         <item name="colorPrimary">@color/primary_dark</item>
         <item name="colorOnPrimary">@color/on_primary_dark</item>
         <item name="colorPrimaryContainer">@color/primary_container_dark</item>
@@ -26,10 +28,12 @@
         <item name="colorSurfaceVariant">@color/grey_background</item>
         <item name="colorOnSurfaceVariant">@color/on_surface_variant_dark</item>
 
+        <item name="cardViewStyle">@style/Mycardview</item>
+
     </style>
     
     <style name="Mycardview" parent="Widget.MaterialComponents.CardView">
-        <item name="cardBackgroundColor">@color/terciary_container_dark</item>
+        <item name="cardBackgroundColor">@color/background_dark</item>
 
     </style>
     

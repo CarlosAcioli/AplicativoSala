@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">Aplicativo Sala</string>
+    <string name="app_name">Jingle Songs</string>
 
     <!-- Titles name examples -->
-    <string name="title_1">Here title 1</string>
-    <string name="title_2">Here title 2</string>
-    <string name="title_3">Here title 3</string>
-    <string name="title_4">Here title 4</string>
-    <string name="title_5">Here title 5</string>
-    <string name="title_6">Here title 6</string>
-    <string name="title_7">Here title 7</string>
-    <string name="title_8">Here title 8</string>
-    <string name="title_9">Here title 9</string>
-    <string name="title_10">Here title 10</string>
+    <string name="title_1">Os desafios da inclusão</string>
+    <string name="title_2">A diversidade cultural</string>
+    <string name="title_3">EcoNOmia</string>
+    <string name="title_4">Educação na sociedade</string>
+    <string name="title_5">Contra homofobia</string>
+    <string name="title_6">Nosso clima está ruim…</string>
+    <string name="title_7">O racismo na gente</string>
+    <string name="title_8">Alimentação benéfica</string>
+    <string name="title_9">Tecnologia revoluciona o mundo (e muito)</string>
+    <string name="title_10">Girl Power!</string>
 
     <!-- Themes name examples -->
     <string name="theme_1">Acessibilidade</string>
@@ -26,20 +26,37 @@
     <string name="theme_10">Empoderamento Feminino</string>
 
     <!-- Students name -->
-    <string name="students_1">Carlos Acioli, Bruna Surlo e Emanuelle Gomes</string>
-    <string name="students_2">Fabrício Macedo, Gabriela Schmidt e Hevily Fujimoto</string>
+    <string name="students_1">Carlos Acioli, Abigail Paiva e Manuel Lima</string>
+    <string name="students_2">Fabrício, Gabriel Gomes e Hevily Farias</string>
+    <string name="students_3">Vitória Rosa, Jil Amaranté, Íris</string>
+    <string name="students_4">Jaden Araújo, Rúbia Barros e Alice Moreno</string>
+    <string name="students_5">Shayan Galvão, Olívia Linda, Rayssa</string>
+    <string name="students_6">Lucas Barreiro, Lara Croft, Raíssa</string>
+    <string name="students_7">Heytor, Guilherme Leite e Charles Breno</string>
+    <string name="students_8">Heloísa, Gustavo Santos e Igor</string>
+    <string name="students_9">Leandro Fernim, Pedro Brito e Leonardo</string>
+    <string name="students_10">Oscar Jovem, Yasmin Argolo e Eduarda Breton</string>
 
-    <!-- Description -->
-    <string name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Vitae tempus quam pellentesque nec. Neque vitae tempus quam pellentesque nec nam aliquam sem et.</string>
+    <!-- Description each video -->
+    <string name="description_1">Acessibilidade refere-se à prática de garantir que produtos, serviços e espaços sejam projetados e adaptados para serem utilizados por todas as pessoas, independentemente de suas capacidades físicas ou cognitivas. Isso inclui a instalação de rampas para cadeiras de rodas, legendas em vídeos para pessoas surdas e cegos, e interfaces de fácil utilização em aplicativos e sites.</string>
+    <string name="description_2">Cultura é o conjunto de valores, crenças, práticas, tradições, arte e expressões que definem uma sociedade ou grupo. Ela molda a identidade de uma comunidade e influencia sua forma de pensar, se comunicar e se comportar.</string>
+    <string name="description_3">Economia é o estudo da produção, distribuição e consumo de bens e serviços em uma sociedade. Ela analisa como indivíduos, empresas e governos alocam recursos limitados para atender às necessidades e desejos da população, influenciando os padrões de vida e o crescimento econômico.</string>
+    <string name="description_4">Educação é o processo pelo qual as pessoas adquirem conhecimento, habilidades, valores e competências. Ela desempenha um papel crucial no desenvolvimento pessoal e no progresso da sociedade, capacitando indivíduos a contribuir de maneira significativa para a comunidade e a economia.</string>
+    <string name="description_5">Homofobia é o preconceito, discriminação ou aversão direcionada a pessoas com orientações sexuais não heterossexuais, como lésbicas, gays, bissexuais e transgêneros. Isso pode resultar em tratamento injusto, exclusão social e violência baseada na orientação sexual.</string>
+    <string name="description_6">O meio ambiente abrange todos os elementos naturais do planeta, incluindo a atmosfera, a água, o solo, a flora e a fauna. A conservação ambiental visa proteger esses recursos naturais e promover práticas sustentáveis para garantir um futuro saudável para o planeta e suas espécies.</string>
+    <string name="description_7">Racismo é a discriminação, preconceito ou hostilidade dirigida a indivíduos ou grupos com base em sua raça ou origem étnica. Isso pode resultar em desigualdades sociais, acesso limitado a oportunidades e injustiças sistêmicas.</string>
+    <string name="description_8">Saúde engloba o estado de bem-estar físico, mental e social de uma pessoa. É alcançada por meio de cuidados médicos adequados, estilo de vida saudável e acesso a serviços de saúde de qualidade.</string>
+    <string name="description_9">Tecnologia refere-se a produtos, processos e inovações criadas para melhorar a eficiência, a comunicação e a qualidade de vida. Ela desempenha um papel fundamental em quase todos os aspectos da vida moderna, desde a comunicação até a medicina e a indústria.</string>
+    <string name="description_10"> Empoderamento feminino é o processo de capacitar mulheres para alcançar igualdade de gênero em todas as esferas da sociedade. Isso envolve garantir direitos iguais, acesso à educação, participação na tomada de decisões e a eliminação de discriminação e violência baseada no gênero.</string>
 
-    <!-- titles itro -->
+    <!-- titles intro -->
     <string name="intro_title_1">Bem-vindo! 👋</string>
     <string name="intro_title_2">O que é esse app? 💭</string>
     <string name="intro_title_3">Aproveite os vídeos! 📱</string>
 
-    <!-- descriptions -->
-    <string name="dp_1">Olá, seja bem-vindo ao nosso aplicativo. Nós somos os alunos do 3° ano B do Ensino Médio do Colégio da Polícia Militar Anísio Teixeira, e criamos este aplicativo como parte de um trabalho, para desenvolvermos nosso senso crítico a alguns temas.</string>
-    <string name="dp_2">O objetivo deste aplicativo é apresentar vídeos com temáticas diferentes, que abordam críticas à assuntos relevantes para a nossa sociedade. Os vídeos também trazem uma crítica sobre o tema, mostrando diferentes pontos de vista, questionando o senso comum, e expandindo a visão referente aos temas abordados.</string>
-    <string name="dp_3">Esperamos que você aproveite o nosso aplicativo e assista aos vídeos com um olhar crítico e curioso. Queremos compartilhar com você as nossas reflexões e aprendizados sobre os temas propostos. Agradecemos a sua atenção e participação. Valeu!</string>
+    <!-- introductions phrases -->
+    <string name="introduction_1">Olá, seja bem-vindo ao nosso aplicativo. Nós somos os alunos do 3° ano do Ensino Médio, e criamos este aplicativo como parte de um trabalho, para desenvolvermos nosso senso crítico a alguns temas.</string>
+    <string name="introduction_2">O objetivo deste aplicativo é apresentar vídeos com temáticas diferentes, que abordam críticas à assuntos relevantes para a nossa sociedade. Os vídeos também trazem uma crítica sobre o tema, mostrando diferentes pontos de vista, questionando o senso comum, e expandindo a visão referente aos temas abordados.</string>
+    <string name="introduction_3">Esperamos que você aproveite o nosso aplicativo e assista aos vídeos com um olhar crítico e curioso. Queremos compartilhar com você as nossas reflexões e aprendizados sobre os temas propostos. Agradecemos a sua atenção e participação. Valeu!</string>
 
 </resources>

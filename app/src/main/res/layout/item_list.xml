@@ -22,10 +22,11 @@
 
         <TextView
             android:id="@+id/titleText"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Título de exemplo"
+            android:text="@string/title_9"
             android:textSize="18sp"
+            android:gravity="center"
             android:fontFamily="@font/noto_sans"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"

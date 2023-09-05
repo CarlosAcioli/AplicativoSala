@@ -9,5 +9,6 @@ data class Informations(
     @StringRes val titleName: Int,
     @StringRes val themeName: Int,
     @StringRes val studentsName: Int,
-    val uriVideoParse: Uri
+    val uriVideoParse: Uri,
+    @StringRes val briefDescription: Int
 )

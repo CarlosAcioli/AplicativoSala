@@ -9,7 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.aplicativosala.R
-import com.example.aplicativosala.VideoActivity
+import com.example.aplicativosala.view.VideoActivity
 import com.example.aplicativosala.model.Informations
 
 class VideosAdapter(
@@ -41,11 +41,14 @@ class VideosAdapter(
         holder.themeTextView.text = context.resources.getString(item.themeName)
         holder.studentsTextView.text = context.resources.getString(item.studentsName)
 
+        val descriptionText = context.resources.getString(item.briefDescription)
+
         holder.itemView.setOnClickListener {
             val context = holder.itemView.context
             val intent = Intent(context, VideoActivity::class.java)
             intent.putExtra("UriParse", item.uriVideoParse.toString())
             intent.putExtra("themeName", holder.themeTextView.text.toString())
+            intent.putExtra("briefDescription", descriptionText)
             context.startActivity(intent)
         }
 
